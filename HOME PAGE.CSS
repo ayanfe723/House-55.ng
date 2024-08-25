@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+position: absolute;
+}
+
+body{
+    background-color: white;
+    color: white;
+    font-size: 20px;
+    scroll-behavior: auto;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+header{
+    
+    background-image: url(../assets/fresh\ bar\ hotel\ bgi2.jpg);
+    background-size: cover;
+    width: 1255px;
+    height: 700px;
+    font-family:cursive;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+nav{
+    display: flex;
+    padding: 0px 0px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin-left: 400px;
+    padding: 15px;
+}
+.logo{
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 55px;
+    margin-left: 25px;
+}
+/* .SPND{
+    margin-top: 95px;
+} */
+.peak{
+    text-align: center;
+    margin-top: 125px;
+    font-family: cursive;
+    margin-right: 75px;
+}
+.btnss{
+    text-align: center;
+}
+.btn1{
+    text-align: center;
+    margin-top: 55px;
+    margin-right: 15px;
+    padding: 15px 15px;
+    background-color: burlywood;
+    border: solid 1px white;
+    color: white;
+    border-radius: px;
+}
+.btn2{
+    text-align: center;
+    margin-top: 55p x;
+    margin-right: 15px;
+    padding: 15px 15px;
+    /* background-color:; */
+    border: solid 1px white;
+    background-color: transparent;
+    color: beige;
+    border-radius: px;
+}
+:hover.btn2 {
+    background-color: white;
+    color: black;
+
+}
+.container{
+    display: flex;
+    gap: 0.5rem;
+}
+.text1{
+    border: solid 1px black;
+    height: 350px;
+    width: 400px;
+    margin-top: 55px;
+    text-align: center;
+    padding: 1px;
+    padding-right: 95px;
+    padding-left: 53px;
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+:hover.text1{
+    background-color: black;
+    color: white;
+}
+.cozzy{
+    margin-top: 35px;
+}
+.text1 h1{
+    margin-top: 25px;
+    margin-left: 5px;
+}
+.text2{
+    border: solid 1px black;
+    height: 350px;
+    width: 400px;
+    margin-top: 75px;
+    text-align: center;
+    padding: 1px;
+    /* padding-right: 45px; */
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    background-image: url(../assets/large\ rooms.avif);
+    padding-right: 125px;
+    margin-left: 15px;
+}
+.text2 h1{
+    margin-top: 55px;
+}
+.container2{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 75px;
+    /* margin-bottom: 125px; */
+}
+.text3{
+    border: solid 1px black;
+    height: 350px;
+    width: 400px;
+    /* margin-top: 55px; */
+    text-align: center;
+    padding: 1px;
+    margin-bottom: 25px;
+    background-color: white;
+    color: black;
+    font-family: cursive;
+}
+.text3 h1{
+    margin-top: 5px;
+}
+.text4{
+    border: solid 1px black;
+    height: 370px;
+    width: 400px;
+    /* margin-top: 0.1%; */
+    /* margin-bottom: 425px; */
+    /* text-align: center; */
+    /* padding: 25px 0px; */
+    /* margin-bottom: 95%; */
+    background-color: white;
+    color: black;
+    background-image: url(../assets/Small\ bedroom\ 1.avif);
+}
+:hover.text3{
+    background-color: gold;
+    color: white;
+}
+.h1s{
+    text-align: right;
+    justify-content: right;
+    font-family: cursive;
+    margin-right: 155px;
+    margin-top:35px;
+}
+.Air{
+    margin-top: 25px;
+}
+.Sleep{
+    margin-top: 15px;
+}
+.sf{
+    color: black;
+}
+.cls{
+    margin-top: 25px;
+}
+.AMAZ{
+    text-align: center;
+    color: black;
+    margin-top: 75px;
+    font-family: cursive;
+}
+.icon1{
+    height: 150px;
+    width: 170px;
+    border: 1px solid black;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+    border-top-left-radius: 55px;
+    color: black;
+    padding: 25px;
+    margin-left: 75px;
+}
+.icon1 h3{
+    margin-top: 75px;
+    text-align: center;
+    margin-left: 25px;
+}
+.st{
+    color: black;
+    margin-right: 155px;
+    margin-top: 75px;
+}
+.htel{
+    color: black;
+    font-family: cursive;
+    margin-right: 25px;
+}
+.best{
+    color: black;
+    font-family: cursive;
+    margin-left: 2px;
+    margin-top: 75px;
+    /* justify-content: space-between; */
+}
+.img{
+    margin-top: 15px;
+    align-items: center;
+}
+.spec{
+    margin-bottom: 65px;
+}
+.far{
+    color: black;
+    margin-left: 195px;
+}
+.special{
+    margin-top: 55px;
+}
+.bot{
+    color: black;
+    margin-top:295px;
+    margin-left: 0.5px;
+}
+.book{
+    margin-left: 75px;
+}
+.contain{
+    margin-top: 155px;
+    margin-left: 75px;
+    /* padding: 15px; */
+
+}
+.btc{
+    background-color: burlywood;
+    padding: 15px;
+    border: none;
+}
+.wordwifi{
+    align-items: center;
+}
+.img1{
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
